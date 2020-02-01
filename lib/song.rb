@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Song 
   @@count = 0
   
@@ -128,8 +128,3 @@ puts the_day.genre
 puts Song.count
 
   
-  
-  
-  
-  
->>>>>>> d2d207418e8307013b767b2677166821c69c713f
