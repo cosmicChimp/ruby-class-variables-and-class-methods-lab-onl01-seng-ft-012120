@@ -28,11 +28,11 @@ class Song
   
   def self.artist_count
     artist_count = {}
-    @@artists.each do |total, i|
-      if artist_count[total, i]
-        artist_count[total, i] += 1 
+    @@artists.each do |total|
+      if artist_count|total|
+        artist_count|total| += 1 
       else
-        artist_count[total, i] = 1  
+        artist_count|total| = 1  
       end
     end
     artist_count
