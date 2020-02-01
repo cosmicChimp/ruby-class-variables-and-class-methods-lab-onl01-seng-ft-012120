@@ -32,8 +32,7 @@ class Song
       if artist_count[total, i]
         artist_count[total, i] += 1 
       else
-        artist_count[total, i]
-        artist_count[total, i] += 1 
+        artist_count[total, i] = 1  
       end
     end
     artist_count
